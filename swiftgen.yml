@@ -1,0 +1,15 @@
+xcassets:
+  - inputs: Sources/TMUIKit/Resources/Colors.xcassets
+    outputs:
+      - templateName: swift5
+        output: Sources/TMUIKit/Resources/TMColor.swift
+        params:
+          enumName: TMColor
+          publicAccess: true
+  - inputs: Sources/TMUIKit/Resources/Images.xcassets
+    outputs:
+      - templateName: swift5
+        output: Sources/TMUIKit/Resources/TMImage.swift
+        params:
+          enumName: TMImage
+          publicAccess: true
